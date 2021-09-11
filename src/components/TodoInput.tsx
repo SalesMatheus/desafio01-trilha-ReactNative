@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { StyleSheet, TextInput, TouchableOpacity, View } from 'react-native';
+import { Alert, StyleSheet, TextInput, TouchableOpacity, View } from 'react-native';
 import Icon from 'react-native-vector-icons/Feather';
 
 interface TodoInputProps {
@@ -10,9 +10,12 @@ export function TodoInput({ addTask }: TodoInputProps) {
   const [task, setTask] = useState('');
   
   function handleAddNewTask() {
+    
     if(task !== ''){
       addTask(task);
       setTask('');
+    }else{
+      Alert.alert('Não é possível adicionar uma task vazia!');
     }
   }
 
