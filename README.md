@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img height="60" src=".github/logoTodo.png" alt="Dtmoney" />
+    <img height="60" src=".github/logoTodo.svg" alt="Dtmoney" />
 </h1>
 
 ![cover](.github/capa.svg?style=flat)
