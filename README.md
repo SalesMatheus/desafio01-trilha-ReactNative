@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img height="80" src=".github/logo.png" alt="Dtmoney" />
+    <img height="80" src=".github/logo@2x.png" alt="Dtmoney" />
 </h1>
 
 ![cover](.github/capa.svg?style=flat)
@@ -49,9 +49,10 @@ $ cd desafio01-trilha-ReactNative
 # Install dependencies
 $ yarn
 
-# Run the project
+# Run the project in ios
 $ npx react-native run-ios
 
+# Run the project in android
 $ npx react-native run-android
 
 ```
